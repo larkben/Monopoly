@@ -47,10 +47,10 @@ class Monopoly:
 
 class Property:
 	def __init__(self,name,postion,price,rent):
-    	self.name = name
-        self.postion = postion
-        self.price = price
-        self.rent = rent
+		self.name = name
+		self.postion = postion
+		self.price = price
+		self.rent = rent
     
 	def add_smallhouse(self):
 		select_newprop = input()
@@ -59,11 +59,11 @@ class Property:
 		select_property = input("Please type carefully which property you would like to place a red hotel")
 
 class Player:
-    def __init__(self):
-        self.money = 2500
+	def __init__(self):
+		self.money = 2500
 		self.cards = {}
 
-    def add_prop(self,prop,price):
+	def add_prop(self,prop,price):
 		self.prop = prop
 		self.price = price
 
