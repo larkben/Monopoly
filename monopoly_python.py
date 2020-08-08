@@ -47,7 +47,7 @@ class Monopoly:
 
 class Property:
 	def __init__(self,name,postion,price,rent):
-        self.name = name
+    	self.name = name
         self.postion = postion
         self.price = price
         self.rent = rent
